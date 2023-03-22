@@ -1,6 +1,6 @@
 <?php
     // Récupérer le mot entré par l'utilisateur
-    $mot = $_POST["mot"];
+    $mot = $_GET["mot"];
 
     // Vérifier si le mot est un palindrome
     if (strtolower($mot) == strtolower(strrev($mot))) {
